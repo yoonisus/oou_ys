@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>OneofSKKU</title>
+ 
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+
+   <link href="/assets/bootstrap.css" rel="stylesheets">
+   <script   src="https://code.jquery.com/jquery-1.12.4.min.js"   integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ="   crossorigin="anonymous"></script>
+   
+</head>
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="text-align:center;">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="#">ONE</a>
+                    </li>
+                    <li>
+                        <a href="#">TEAM</a>
+                    </li>
+                    
+                </ul>
+            <form class="navbar-form navbar-left" style="display: inline;">
+              <div class="form-group">
+                <input type="text" class="form-control" placeholder="찾고 싶은 키워드를 입력해주세요" style="margin-top:8px; width:400px">
+              </div>
+              <button type="submit" class="btn btn-default" style="margin-top:8px;">검색</button>
+            </form>  
+            <ul class="nav navbar-nav navbar-right">
+              <li style="width:40px;height:50px;"><a href='#' style="width:30px;height:30px;border:2px solid;border-radius: 100%;"></a></li>
+              <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="text-align:center; "> Hyosub Lim <span class="caret"></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">나의 프로필</a></li>
+                    <li><a href="#">나의 팀</a></li>
+                    <li><a href="#">관심 리스트</a></li>
+                    <li role="separator" class="divider"></li>
+                    <li><a href="#">계정 정보</a></li>
+                    <li><a href="#">로그아웃</a></li>
+                </ul>
+              </li>
+              <li><a href="#"><span class="glyphicon-envelope"></span></a></li>
+              <li><a href="#"><span class="glyphicon-cloud"></span></a></li>
+            </ul>
+            </div>
+       
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+ 
+      
+<%= yield %>
+
+</body>
+</html>

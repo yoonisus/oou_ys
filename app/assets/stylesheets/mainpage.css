@@ -1,0 +1,195 @@
+@charset "UTF-8";
+
+html {
+  -webkit-text-size-adjust: 100%;
+      -ms-text-size-adjust: 100%;
+}
+body {
+  margin: 0;
+}
+
+button{
+    border:0;
+    background:none;
+}
+
+ul{
+   list-style:none;
+   padding-left:0px;
+   }
+
+.main_container{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.main_top{
+    width: 900px;
+    height:125px;
+    display:inline-block;
+    text-align:center;
+}
+.main_top_logo{
+    width:170px;
+    height:100px;
+    position: absolute;
+    display:inline-block;
+    margin-left: -90px;
+    margin-top: 10px;
+}
+.main_top_logo_img{
+    width: auto;
+    height: 100px;
+}
+.main_top_banner1{
+    /*border: 1px solid;*/
+    width: 250px;
+    height:80px;
+    position: absolute;
+    margin-top: 30px;
+}
+.main_top_banner2{
+    /*border: 1px solid;*/
+    width: 250px;
+    height:80px;
+    margin-top: 30px;
+    float: right;
+}
+.main_notice{
+    width: 1000px;
+    display:inline-block;
+}
+.main_notice_slider{
+    /*border: 1px solid;*/
+    width: 700px;
+    height:200px;
+    float:left;
+    overflow: hidden;
+    text-align: left;
+    position: relative;
+}
+
+.main_notice_slider ul{
+    width: 2800px;
+    list-style:none;
+    font-size: 0pt;
+}
+.main_notice_slider ul li{
+    display: inline-block;
+}
+
+.main_notice_slider button.prev{
+    position: absolute;
+    left: 0px;
+    top: 80px; 
+}
+.main_notice_slider button.next{
+    position: absolute;
+    right: 0px;
+    top: 80px;
+}
+
+.main_notice_topbanner{
+    border: 1px solid;
+    border-color:#999999;
+    width: 280px;
+    height:200px;
+    float:left;
+    margin-left: 16px;
+    text-align:left;
+}
+
+.main_notice_school{
+    margin:10px;
+    font-size:14px;
+    text-align:left;
+    font-weight:700;
+}
+.main_notice_topbanner ul li{
+    display:inline-block;
+    width:248px;
+    font-size:11px;
+    text-overflow: ellipsis; 
+    white-space: nowrap; 
+    overflow: hidden;
+}
+.main_notice_topbanner ul{
+    margin-top:10px;
+    margin-left:15px;
+    margin-right:15px;
+    margin-bottom:0px;
+}
+
+.school_more{
+    float:right;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    color: #333;
+    font-size:11px;
+}
+
+.main_notice_banner1{
+    width: 320px;
+    height:120px;
+    float: left;
+    margin-top: 11px;
+}
+.main_notice_banner2{
+   
+    width: 320px;
+    height:120px;
+    float: left;
+    margin-left: 18px;
+    margin-top: 11px;
+}
+.main_one_today{
+    width: 1000px;
+    display:inline-block;
+    text-align: left;
+}
+.main_one_today h3{
+    font-weight:bold;
+}
+.main_one_today_content1{
+    border: 1px solid;
+    width: 240px;
+    height: 310px;
+    float: left;
+    margin-top: 11px;
+}
+.main_one_today_content2{
+    border: 1px solid;
+    width: 240px;
+    height: 310px;
+    float: left;
+    margin-left: 11px;
+    margin-top: 11px;
+}
+.main_more{
+    float: right;
+    margin: 5px;
+    font-size: 14pt;
+    color: #333;
+}
+.main_team_today{
+    width: 1000px;
+    display:inline-block;
+    text-align: left;
+}
+.main_team_today h3{
+    font-weight: bold;
+}
+.main_team_today_content1{
+    border: 1px solid;
+    width: 324px;
+    height: 160px;
+    float: left;
+    margin-top: 11px;
+}
+.main_team_today_content2{
+    border: 1px solid;
+    width: 324px;
+    height: 160px;
+    float: left;
+    margin-left: 11px;
+    margin-top: 11px;
+}
